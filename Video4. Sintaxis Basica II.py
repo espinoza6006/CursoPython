@@ -38,4 +38,5 @@ if numero1 > numero2:
 else:
     print("el número 2 es mayor")
 
+#Esta es la sintaxis basica de un condicional
 
