@@ -53,10 +53,11 @@ print(miLista.count("Pedro"))
 miLista.extend(["Rocio","Ricardo",True])
 print(miLista[:])
 
-# devolver el indice de un elemento en concreto en una lista. --> Se utiliza la función Index("elemento")
+# devolver el indice de un elemento en concreto en una lista. --> Se utiliza la función Index("elemento") --> Devolverá el indice en donde se encuentra un elemento dentro de una lista. 
 indicePedro= miLista.index("Pedro") # haciendo pruebas puedo verificar que puedo asignar variable a los metodos. En caso de haber elementos repetidos devolvera el indice del primer elemento que se repite
 print(indicePedro)
 print(miLista.index("Rocio"))
+# print(miLista.index("Simon")) #--> En este caso como simón no esta presente en la lista me saldrá un error por output diciendo que simon no esta en la lista. 
 
 # Verificar si un elemento se encuentra en la lista --> Se utiliza la función in --> devolvera true si se encuentra el elemento y false si no se encuentra. 
 isRocio= "Rocio" in miLista
