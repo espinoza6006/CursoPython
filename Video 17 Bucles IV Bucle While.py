@@ -14,10 +14,10 @@ while i<10:
 print("********Programa de edad **************")
 
 edadUsuario= int(input("Introduce tu edad: "))
-limiteEdadvalida=0
-limiteMaximoEdad=110
-while edadUsuario<limiteEdadvalida or edadUsuario>limiteMaximoEdad:
-    print("Edad Invalida: La edad tiene que ser positiva y edad debe ser menor a ", limiteMaximoEdad, " años")
+LIMITE_EDAD_VALIDA=0 # declaración de constantes en python el no,bre de la constante va en MAYUSCULAS
+LIMITE_MAXIMO_EDAD=110
+while edadUsuario<LIMITE_EDAD_VALIDA or edadUsuario>LIMITE_MAXIMO_EDAD:
+    print("Edad Invalida: La edad tiene que ser positiva y edad debe ser menor a ", LIMITE_MAXIMO_EDAD, " años")
     edadUsuario= int(input("Introduce tu edad: "))
 
 print("Edad Correcta. Tu edad es: ", edadUsuario, " años")
