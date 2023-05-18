@@ -83,7 +83,6 @@ for i in almacenarParesGenerador:
 # Devolver valor a valor
 
 elemento1=next(almacenarParesGenerador)
-print("Aqui podria ir mas codigo")
 elemento2=next(almacenarParesGenerador)
 print("Aqui podria ir mas codigo")
 elemento3=next(almacenarParesGenerador)
