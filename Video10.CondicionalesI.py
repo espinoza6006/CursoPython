@@ -9,7 +9,7 @@ notaCero=0
 
 print("Programaa Para saber si un alumno aprobo o reprobo.")
 #print("Introduzca Nota: ")
-notaAlumno=input("Introduce la Nota: ") # La función input() todo lo considera como texto. si queremos convertir ese valor a numerot tenemos que utilizar las funciones int(), float()..// La función input permite parametros.. Pero el curso lo coloca al lado.  
+notaAlumno=float(input("Introduce la Nota: ")) # La función input() todo lo considera como texto. si queremos convertir ese valor a numerot tenemos que utilizar las funciones int(), float()..// La función input permite parametros.. Pero el curso lo coloca al lado.  
 #notaAlumno=float(input("introduce nota: ")) --> Puedo hacer un casting directamente en esta parte de la declaración. 
 def evaluacion(nota):
 
