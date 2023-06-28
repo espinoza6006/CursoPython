@@ -26,3 +26,4 @@ def evaluacion(nota):
 evaluacion(float(notaAlumno)) # Como la función input nos devuelve texto para convertir ese texto en un valor numérico utilizamos la función int()
 
 
+
